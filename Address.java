@@ -1,4 +1,4 @@
-package Assign1;
+package Asign4;
 
 public class Address {
 	private String addressLine;
@@ -37,6 +37,3 @@ public class Address {
 	}
 
 }
-
-
-

@@ -1,16 +1,11 @@
-package Assign1;
+package Asign4;
 
 public class TestCustomer {
 	public static void main(String[] args) {
-		Customer cust=new Customer();
-		cust.setCustomerName("John");
-		cust.setAdd(new Address("1st Main HSR Layout","Banglore"));
+		Customer cust=new Customer("John",new Address("1st Main HSR Layout","Banglore"),new Address("1st Main Electronics city","Banglore"));
 		System.out.println(cust.getCustomerDetails());
-		Customer c1=new Customer("Rahul",new Address("Technuz","Pune"));
-		System.out.println(c1.getCustomerDetails());
 	}
 
 }
-
 
 
